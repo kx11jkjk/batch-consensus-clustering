@@ -1,4 +1,5 @@
 # batch-consensus-clustering
+Required package: `ConsensusClusterPlus`
 - **Input**:  
   rows are genes, columns are samples  
 - **Output**:  
