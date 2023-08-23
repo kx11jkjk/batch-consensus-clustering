@@ -4,7 +4,23 @@ Required package: `ConsensusClusterPlus`
   rows are genes, columns are samples  
 - **Output**:  
 1. Create a folder named `xxxx_consensus_clustering` in the working directory ("xxxx" is the prefix, which will be introduced in detail later), in which there are 13 algorithm combinations (normally 13, if the data is small or the Other problems such as data not meeting the requirements of a certain algorithm combination may be less than 13)
-2. In the Rstudio global environment, a list named `result_list` will be output, which contains group information.
+```
+13 algorithm combinations
+pearson-hc
+spearman-hc
+binary-hc
+maximum-hc
+canberra-hc
+minkowski-hc
+pearson-pam
+spearman-pam
+binary-pam
+maximum-pam
+canberra-pam
+minkowski-pam
+euclidean-km
+```
+3. In the Rstudio global environment, a list named `result_list` will be output, which contains group information.
 ```r
 consensus_clustering(data=data,
                      subname = NULL,
