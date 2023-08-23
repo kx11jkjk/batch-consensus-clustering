@@ -18,7 +18,7 @@ binary-pam
 maximum-pam
 canberra-pam
 minkowski-pam
-euclidean-km
+euclidean-kmeans
 ```
 3. In the Rstudio global environment, a list named `result_list` will be output, which contains group information.
 ```r
